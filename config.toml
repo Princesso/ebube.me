@@ -1,11 +1,11 @@
-baseurl = "http://www.example.com"
-title = "Yusuke Ishimi"
+baseurl = "/"
+title = "Princess Oluebube Egbuna"
 
 theme = "hugo-coder"
 
 DefaultContentLanguage = "en"
 
-paginate = 20
+paginate = 15
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
@@ -15,14 +15,14 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "Princess Oluebube Egbuna"
+    description = "Princess Oluebube Egbuna's personal website"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
+    info = "SOFTWARE ENGINEER"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+    footercontent = "Princess Oluebube Egbuna"
+    fixedbarContent = "Want to know my special quote?→"
+    fixedbarContentAfter = "Very little is needed to make a happy life; it is all within yourself, in your way of thinking"
 
     hideCredits = false
     hideCopyright = false
@@ -45,27 +45,27 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Github"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://github.com/"
 [[params.social]]
     name = "Twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://twitter.com/"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.linkedin.com/in/"
 
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "Princess Oluebube Egbuna"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
-            info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
+            author = "Princess Oluebube Egbuna"
+            info = "SOFTWARE ENGINEER"
+            description = "Princess Oluebube Egbuna's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
@@ -88,33 +88,3 @@ disqusShortname = "yourdiscussshortname"
                 name = "Contact me"
                 weight = 5
                 url = "contact"
-
-
-    [languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
-
-        [languages.ja.params]
-            author = "石見 優丞"
-            description = "石見のサイト"
-            keywords = "blog,developer,strona domowa"
-            info = "WEBとアプリのエンジニア"
-
-        [languages.ja.menu]
-            [[languages.ja.menu.main]]
-                name = "テーマについて"
-                weight = 1.0
-                url = "ja/about"
-            [[languages.ja.menu.main]]
-                name = "ブログ"
-                weight = 2.0
-                url = "ja/posts"
-            [[languages.ja.menu.main]]
-                name = "プロジェクト"
-                weight = 3
-                url = "ja/projects"
-            [[languages.ja.menu.main]]
-                name = "お問い合わせ"
-                weight = 5
-                url = "ja/contact"
