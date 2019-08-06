@@ -37,6 +37,8 @@ pygmentsUseClasses = true
     # RTL support
     rtl = false
 
+    langseparator = "|"
+
 [[params.social]]
     name = "Github"
     weight = 1
