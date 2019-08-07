@@ -71,8 +71,3 @@ pygmentsUseClasses = true
                 name = "Blog"
                 weight = 2.0
                 url = "posts"
-
-            [[languages.en.menu.main]]
-                name = "Contact"
-                weight = 5
-                url = "contact"
