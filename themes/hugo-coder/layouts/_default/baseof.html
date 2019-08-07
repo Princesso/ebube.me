@@ -56,9 +56,6 @@
       <div class="content">
         {{ block "content" . }}{{ end }}
       </div>
-      <div class="myblog">
-        starts here
-      </div>
       {{ if or (.Site.Params.fixedbarContent) (.Site.Params.snsShare)}}
         {{ partial "footer.html" . }}
       {{ end }}
