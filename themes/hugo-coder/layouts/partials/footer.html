@@ -1,0 +1,14 @@
+<footer class="footer">
+  <section class="container">
+    {{ with .Site.Params.footercontent }}
+      <p>{{.}}</p>
+    {{ end }}
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    {{ with .Site.Params.fixedbarContent }}
+      <p>Made by Oluebube Princess Egbuna</p>
+    {{ end }}
+  </section>
+</div>

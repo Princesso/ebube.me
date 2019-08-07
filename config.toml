@@ -1,0 +1,73 @@
+baseurl = "http://www.ebube.me"
+title = "Oluebube Princess Egbuna"
+
+theme = "hugo-coder"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+[params]
+    author = "Oluebube Princess Egbuna"
+    description = "Oluebube Princess Egbuna's personal website"
+    keywords = "blog,developer,personal,engineer,andela,oluebube princess egbuna"
+    info = "Software Engineer and Community Builder"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Made with love by Oluebube Princess Egbuna"
+    fixedbarContent = "Reach me here"
+
+    hideCredits = false
+    hideCopyright = false
+
+    snsShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/Princesso/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/PrincesOluebube"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/egbunaoluebubeprincess/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Oluebube Princess Egbuna"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Oluebube Princess Egbuna"
+            info = "Software Engineer and Community Builder"
+            description = "Oluebube Princess Egbuna's personal website"
+            keywords = "blog,developer,personal,engineer,andela,oluebube princess egbuna"            
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
