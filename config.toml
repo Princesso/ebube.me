@@ -37,6 +37,8 @@ pygmentsUseClasses = true
     # RTL support
     rtl = false
 
+    langseparator = "|"
+
 [[params.social]]
     name = "Github"
     weight = 1
@@ -69,8 +71,3 @@ pygmentsUseClasses = true
                 name = "Blog"
                 weight = 2.0
                 url = "posts"
-
-            [[languages.en.menu.main]]
-                name = "Contact"
-                weight = 5
-                url = "contact"

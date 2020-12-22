@@ -2,7 +2,7 @@
   <h1 class="title">{{ .Title }}</h1>
   <ul>
     {{ range .Paginator.Pages }}
-    <li>
+    <li id="post-card">
       <span>{{ .Date.Format "January 2, 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
